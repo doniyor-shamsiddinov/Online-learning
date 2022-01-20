@@ -62,12 +62,12 @@ export default function Header() {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <NavLinks className="navLinks">
-                                <li className="navLink">Home</li>
-                                <li className="navLink">Careers</li>
-                                <li className="navLink">Blog</li>
-                                <li className="navLink">About Us</li>
-                            </NavLinks>
+                                <NavLinks className="navLinks">
+                                    <li className="navLink">Home</li>
+                                    <li className="navLink">Careers</li>
+                                    <li className="navLink">Blog</li>
+                                    <li className="navLink">About Us</li>
+                                </NavLinks>
                             </Nav>
                         </Offcanvas.Body>
                         </Navbar.Offcanvas>

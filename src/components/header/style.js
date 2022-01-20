@@ -6,13 +6,17 @@ export const HeaderWrapper = styled.div`
     background-color: ${colors.orangeBgc};
 
     .headerInner {
-        padding: 60px 0;
+        padding: 35px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .logo {
             width: 115px;
+        }
+
+        @media (max-width: 768px) {
+            padding-bottom: 10px;
         }
     }
 `
@@ -23,6 +27,7 @@ export const BurgerMenu = styled(Navbar)`
 
   button {
     padding: 0;
+    z-index: 99;
 
     &:focus {
         box-shadow: none;

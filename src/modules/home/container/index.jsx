@@ -1,9 +1,14 @@
 import { HomeWrapper } from './style'
+import Hero from '../layouts/hero'
+import Clients from '../layouts/clients'
+import AllInOne from '../layouts/allInOn'
 
 export default function Home () {
     return (
         <HomeWrapper>
-            <h1>Home page</h1>
+            <Hero/>
+            <Clients/>
+            <AllInOne/>
         </HomeWrapper>
     )
 }

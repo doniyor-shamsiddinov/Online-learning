@@ -23,4 +23,9 @@ export const ButtonWrapper = styled.button`
     background: ${(props) =>  props.hoverBackground};
     border: ${(props) => props.borderWeight} solid ${(props) =>  props.hoverBorder};
   }
+
+  @media (max-width: 992px) {
+    padding: 7px 28px;
+    font-size: 16px;
+  }
 `
