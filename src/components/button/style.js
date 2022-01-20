@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ButtonWrapper = styled.button`
   background: ${(props) => props.propsBackGround};
-  border: ${(props) => props.borderWeight} solid ${(props) => props.borderColor};
+  border: ${(props) => props.borderWeight} solid ${(props) => props.propsBorder} !important;
   color: ${(props) => props.propsColor};
   box-shadow: ${(props) => props.boxShadow};
   transition: all ease 0.3s;
@@ -21,7 +21,7 @@ export const ButtonWrapper = styled.button`
     opacity: ${(props) => props.opacity};
     color: ${(props) => props.hoverColor};
     background: ${(props) =>  props.hoverBackground};
-    border: ${(props) => props.borderWeight} solid ${(props) =>  props.hoverBorder};
+    border: ${(props) => props.borderWeight} solid ${(props) =>  props.hoverBorder} !important;
   }
 
   @media (max-width: 992px) {

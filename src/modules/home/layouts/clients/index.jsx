@@ -15,24 +15,12 @@ export default function Clients () {
                 Trusted by 5,000+ Companies Worldwide
             </h2>
             <div className="clientIcons">
-                <a href="https://www.google.com/" target="_blank" className="clientLink">
-                    <img src={Client} alt="icon" className="clientIcon" />
-                </a>
-                <a href="https://www.netflix.com/uz-ru/" target="_blank" className="clientLink">
-                    <img src={Client2} alt="icon" className="clientIcon" />
-                </a>
-                <a href="https://www.airbnb.com/" className="clientLink" target="_blank">
-                    <img src={Client3} alt="icon" className="clientIcon" />
-                </a>
-                <a href="https://www.amazon.com/" className="clientLink" target="_blank">
-                    <img src={Client4} alt="icon" className="clientIcon amazon" />
-                </a>
-                <a href="https://www.facebook.com/" className="clientLink" target="_blank">
-                    <img src={Client5} alt="icon" className="clientIcon" />
-                </a>
-                <a href="https://www.grab.com/sg/" className="clientLink" target="_blank">
-                    <img src={Client6} alt="icon" className="clientIcon" />
-                </a>
+                <img src={Client} alt="icon" className="clientIcon" />
+                <img src={Client2} alt="icon" className="clientIcon" />
+                <img src={Client3} alt="icon" className="clientIcon" />
+                <img src={Client4} alt="icon" className="clientIcon amazon" />
+                <img src={Client5} alt="icon" className="clientIcon" />
+                <img src={Client6} alt="icon" className="clientIcon" />
             </div>
         </ClientWrapper>
     )

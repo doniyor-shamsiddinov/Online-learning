@@ -10,7 +10,7 @@ export default function ButtonComponent (props) {
            propsBackGround={propsBackGround}
            hoverColor={hoverColor}
            hoverBackground={hoverBackground}
-           borderColor={propsBorder}
+           propsBorder={propsBorder}
            borderWeight={borderWeight}
            hoverBorder={hoverBorder}
            opacity={opacity}
