@@ -15,8 +15,7 @@ export const CircleBtnWrapper = styled.div`
     transition: all ease 0.5s;
     
     &:hover {
-        box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.1);
-        transform: scale(1.1);
+        opacity: 0.7;
     }
 
     img {
