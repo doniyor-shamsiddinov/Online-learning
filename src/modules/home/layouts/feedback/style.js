@@ -11,6 +11,120 @@ export const FeedbackWrapper = styled.div`
         justify-content: space-between;
     }
 
+    .swiperWrapper {
+        width: 688px;
+        height: 754px;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        @media (max-width: 375px) {
+            height: 470px;
+        }
+    }
+
+    .carouselImage {
+        position: relative;
+    }
+
+    .infoLayer {
+            position: absolute;
+            background: #FFFFFF;
+            box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+            border-radius: 20px;
+            width: 450px;
+            padding: 20px;
+            left: 40px;
+            bottom: -60px;
+            border-left: 14px solid #F77766;
+            z-index: 99;
+
+
+            .feedbackText {
+                font-family: Nunito Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 180%;
+                letter-spacing: 0.02em;
+                color: #5F5F7E;
+                border-left: 1px solid #BDBDD1;
+                padding-left: 32px;
+                max-width: 370px;
+            }
+
+            .infoBottom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 30px;
+            }
+
+            .reviewImg {
+                height: 32px;
+                width: 130px;
+                object-fit: contain;
+            }
+
+            .reviewCount {
+                font-family: Nunito Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 180%;
+                letter-spacing: 0.02em;
+                color: #80819A;
+            }
+
+            @media (max-width: 576px) {
+                width: 90%;
+                padding: 20px;
+                left: 40px;
+                bottom: -60px;
+
+                .reviewCount {
+                    font-size: 12px;
+                }
+
+                .reviewImg {
+                    height: 25px;
+                    width: 100px;
+                }
+
+                .feedbackText {
+                    font-size: 12px;
+                    color: #5F5F7E;
+                    border-left: 1px solid #BDBDD1;
+                    padding-left: 20px;
+                    max-width: 100%;
+                }
+            }
+
+            @media (max-width: 375px) {
+                padding: 10px;
+                left: 40px;
+                bottom: -60px;
+
+                .reviewCount {
+                    font-size: 10px;
+                }
+
+                .reviewImg {
+                    height: 18px;
+                    width: 80px;
+                }
+
+                .feedbackText {
+                    font-size: 10px;
+                    color: #5F5F7E;
+                    border-left: 1px solid #BDBDD1;
+                    padding-left: 10px;
+                    max-width: 100%;
+                }
+            }
+        }
+
     .assestmentImg {
         width: 570px;
     }
@@ -93,6 +207,9 @@ export const FeedbackWrapper = styled.div`
             width: 60px;
             height: 60px;
         }
+
+
+        
 
         @media (max-width: 992px) {
 
