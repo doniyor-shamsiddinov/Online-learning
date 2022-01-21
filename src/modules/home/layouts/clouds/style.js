@@ -15,6 +15,7 @@ export const CloudsWrapper = styled.div`
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
+        max-width: 475px;
         
 
         .iconItem {
