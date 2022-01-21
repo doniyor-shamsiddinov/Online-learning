@@ -12,7 +12,7 @@ export const ButtonWrapper = styled.button`
   font-size: 18px;
   line-height: 30px;
   cursor: pointer;
-  padding: 10px 40px;
+  padding: 14px 40px;
   outline: none;
   border: none;
   border-radius: 80px;

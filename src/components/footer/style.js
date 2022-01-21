@@ -50,7 +50,7 @@ export const FooterWrapper = styled.div `
                     border: 1px solid #83839A;
                     border-radius: 80px;
                     background-color: transparent;
-                    padding: 12px 30px;
+                    padding: 14px 30px;
                     margin-right: 20px;
                     outline: none;
                     color: #83839A;

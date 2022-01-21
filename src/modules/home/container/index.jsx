@@ -8,6 +8,8 @@ import Features from '../layouts/features'
 import TeachersTool from '../layouts/teachersTool'
 import Assestment from '../layouts/assestment'
 import ClassManagment from '../layouts/classManagment'
+import OneOnOne from '../layouts/oneOnone'
+import Clouds from '../layouts/clouds'
 
 export default function Home () {
     return (
@@ -21,6 +23,8 @@ export default function Home () {
             <TeachersTool/>
             <Assestment/>
             <ClassManagment/>
+            <OneOnOne/>
+            <Clouds/>
         </HomeWrapper>
     )
 }
