@@ -7,6 +7,11 @@ export const InOneCardWrapper = styled.div`
     border-radius: 20px;
     max-width: 380px;
     padding: 30px;
+    transition: all ease 0.3s;
+
+    &:hover {
+        transform: scale(1.03);
+    }
 
 
     .allInOneCardInner {

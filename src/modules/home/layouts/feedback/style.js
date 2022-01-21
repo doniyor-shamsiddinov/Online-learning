@@ -37,9 +37,18 @@ export const FeedbackWrapper = styled.div`
             padding: 20px;
             left: 40px;
             bottom: -60px;
-            border-left: 14px solid #F77766;
             z-index: 99;
 
+            &:after {
+                content: '';
+                background-color: #F77766;
+                border-radius: 20px 0px 0px 20px;
+                width: 12px;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
 
             .feedbackText {
                 font-family: Nunito Sans;
@@ -50,8 +59,13 @@ export const FeedbackWrapper = styled.div`
                 letter-spacing: 0.02em;
                 color: #5F5F7E;
                 border-left: 1px solid #BDBDD1;
-                padding-left: 32px;
+                padding-left: 18px;
+                margin-left: 15px;
                 max-width: 370px;
+            }
+
+            .authorFeedback {
+                margin-left: 32px;
             }
 
             .infoBottom {

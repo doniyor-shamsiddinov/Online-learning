@@ -11,6 +11,15 @@ export const HeaderWrapper = styled.div`
         justify-content: space-between;
         align-items: center;
 
+        .headerLogo {
+            cursor: pointer;
+            transition: all ease 0.3s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
         .logo {
             width: 115px;
         }
