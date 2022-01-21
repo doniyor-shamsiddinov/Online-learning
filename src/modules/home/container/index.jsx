@@ -10,6 +10,7 @@ import Assestment from '../layouts/assestment'
 import ClassManagment from '../layouts/classManagment'
 import OneOnOne from '../layouts/oneOnone'
 import Clouds from '../layouts/clouds'
+import Feedback from '../layouts/feedback'
 
 export default function Home () {
     return (
@@ -25,6 +26,7 @@ export default function Home () {
             <ClassManagment/>
             <OneOnOne/>
             <Clouds/>
+            <Feedback/>
         </HomeWrapper>
     )
 }
