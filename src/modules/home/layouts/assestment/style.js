@@ -1,18 +1,24 @@
 import styled from "styled-components"
 import { colors } from "../../../../assets/styles/colors"
-import TeachersTool from '../../../../assets/images/teachersTool.png'
 
-export const TeachersToolWrapper = styled.div`
-    position: relative;
-    margin-top: 250px;
+export const AssessmentsWrapper = styled.div`
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    .assestmentImg {
+        width: 550px;
+    }
+
     .toolTitle {
         font-style: normal;
         font-weight: bold;
         font-size: 35px;
         line-height: 180%;
         color: ${colors.darkTextBlue};
-        margin-top: 260px;
-        max-width: 393px;       
+        max-width: 251px;       
         .orange {
             color: ${colors.orange};
         }
@@ -26,44 +32,26 @@ export const TeachersToolWrapper = styled.div`
         line-height: 180%;
         color: #696984;
         margin-top: 20px;
-        max-width: 565px;
-    }
-
-    &:after {
-        content: "";
-        background-image: url("${TeachersTool}");
-        background-repeat: no-repeat;
-        background-position: center right;
-        background-size: contain;
-        position: absolute;
-        right: 0;
-        top: -132px;
-        width: 537px;
-        height: 500px;
+        max-width: 476px;
     }
 
     @media (max-width: 1200px) {
         .toolTitle {
             font-size: 30px;
-            max-width: 355px;
         }
 
         .tooltext {
             font-size: 18px;
-            margin-top: 20px;
-            max-width: 432px;
-        }
-
-        &:after {
-            top: -104px;
-            width: 450px;
-            height: 400px;
         }
     }
 
     @media (max-width: 992px) {
-        padding-bottom: 450px;
+        flex-direction: column;
         margin-top: 200px;
+
+        .assestmentImg {
+            margin-top: 60px;
+        }
         .toolTitle {
             font-size: 30px;
             max-width: 355px;
@@ -78,37 +66,28 @@ export const TeachersToolWrapper = styled.div`
             max-width: 432px;
             margin: 0 auto;
         }
-
-        &:after {
-            top: 238px;
-            right: 133px;
-        }
-    }
-
-    @media (max-width: 768px) {
-        &:after {
-            right: 41px;
-        }
     }
 
     @media (max-width: 576px) {
-        &:after {
-            width: 350px;
-            right: 78px;
+        .assestmentImg {
+            width: 400px;
         }
+        
     }
 
     @media (max-width: 410px) {
-        &:after {
-            right: 21px;
+        .assestmentImg {
+            width: 350px;
         }
+        
     }
-    @media (max-width: 375px) {
-        padding-bottom: 50px;
 
-        &:after {
+    @media (max-width: 375px) {
+        margin-top: 70px;
+        .assestmentImg {
             display: none;
         }
+        
     }
 
 `

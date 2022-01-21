@@ -6,6 +6,7 @@ import Skilline from '../layouts/skilline'
 import ClassRoom from '../layouts/classRoom'
 import Features from '../layouts/features'
 import TeachersTool from '../layouts/teachersTool'
+import Assestment from '../layouts/assestment'
 
 export default function Home () {
     return (
@@ -17,6 +18,7 @@ export default function Home () {
             <ClassRoom/>
             <Features/>
             <TeachersTool/>
+            <Assestment/>
         </HomeWrapper>
     )
 }
