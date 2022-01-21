@@ -62,6 +62,62 @@ export const FeedbackWrapper = styled.div`
         max-width: 419px;
     }
 
+    .btnWithArrow {
+        border: 1px solid #F48C06;
+        box-sizing: border-box;
+        border-radius: 80px;
+        background-color: transparent;
+        color: #F48C06;
+        padding: 16px 65px 16px 26px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        position: relative;
+        transition: all ease 0.3s;
+
+        &:hover {
+            padding: 16px 80px 16px 26px;
+            opacity: 0.8;
+        }
+
+        &:after {
+            content: '';
+            background-image: url('${ArrowBtn}');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+        }
+
+        @media (max-width: 992px) {
+
+            &:hover {
+                padding: 16px 65px 16px 26px;
+                opacity: 0.8;
+            }
+        }
+
+        @media (max-width: 375px) {
+            padding: 19px 65px 19px 26px;
+            font-size: 16px;
+
+            &:hover {
+                padding: 19px 65px 19px 26px;
+            }
+
+            &:after {
+                right: -1px;
+                width: 64px;
+                height: 64px;
+            }
+        }
+    }
+
     .moreFeatures {
         margin-top: 50px;
     }

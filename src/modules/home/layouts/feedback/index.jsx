@@ -15,15 +15,9 @@ export default function Feedback () {
                     <p className="tooltext">Some of the students and teachers were greatly helped by the Skilline.</p>
                     <p className="tooltext">Are you too? Please give your assessment</p>
                     <div className="moreFeaturesWrap">
-                        <Button
-                            name={"Write your assessment"}
-                            className="moreFeatures"
-                            propsColor={colors.orange}
-                            propsBackGround={"transparent"}
-                            propsBorder={colors.orange}
-                            borderWeight={"1px"}
-                            opacity={0.7}
-                        />
+                        <button className="btnWithArrow moreFeatures">
+                            Write your assessment
+                        </button>
                     </div>
                 </div>
                 <img src={Carousel} alt="image" className="assestmentImg" />
