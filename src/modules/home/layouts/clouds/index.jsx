@@ -1,5 +1,9 @@
 import { CloudsWrapper } from './style'
 import CloudsImg from '../../../../assets/images/clouds.png'
+import Cloud1 from '../../../../assets/icons/cloud1.png'
+import Cloud2 from '../../../../assets/icons/cloud2.png'
+import Cloud3 from '../../../../assets/icons/cloud3.png'
+import Cloud4 from '../../../../assets/icons/cloud4.png'
 import Button from '../../../../components/button'
 import { colors } from '../../../../assets/styles/colors'
 
@@ -24,7 +28,20 @@ export default function Clouds () {
                         />
                     </div>
                 </div>
-                <img src={CloudsImg} alt="image" className="assestmentImg" />
+                <ul className="iconsWrap">
+                    <li className="iconItem">
+                        <img src={Cloud1} alt="icon" className="cloudIcon" />
+                    </li>
+                    <li className="iconItem">
+                        <img src={Cloud2} alt="icon" className="cloudIcon" />
+                    </li>
+                    <li className="iconItem">
+                        <img src={Cloud3} alt="icon" className="cloudIcon" />
+                    </li>
+                    <li className="iconItem">
+                        <img src={Cloud4} alt="icon" className="cloudIcon" />
+                    </li>
+                </ul>
             </div>
         </CloudsWrapper>
     )

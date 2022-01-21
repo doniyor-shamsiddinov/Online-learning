@@ -10,8 +10,18 @@ export const CloudsWrapper = styled.div`
         flex-direction: row-reverse;
     }
 
-    .assestmentImg {
-        width: 470px;
+    .iconsWrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+        .iconItem {
+            list-style-type: none;
+            padding: 0;
+
+        }
     }
 
     .integration {
