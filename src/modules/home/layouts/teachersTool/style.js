@@ -63,7 +63,7 @@ export const TeachersToolWrapper = styled.div`
 
     @media (max-width: 992px) {
         padding-bottom: 450px;
-        margin-top: 200px;
+        margin-top:  180px;
         .toolTitle {
             font-size: 30px;
             max-width: 355px;
@@ -105,6 +105,7 @@ export const TeachersToolWrapper = styled.div`
     }
     @media (max-width: 375px) {
         padding-bottom: 50px;
+        margin-top: 100px;
 
         &:after {
             display: none;

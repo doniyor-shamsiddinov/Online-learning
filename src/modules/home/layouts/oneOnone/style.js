@@ -56,7 +56,7 @@ export const OneOnOneWrapper = styled.div`
     @media (max-width: 992px) {
         .innerDiv {
             flex-direction: column;
-            margin-top: 200px;
+            margin-top: 140px;
         }
 
         .assestmentImg {
@@ -75,6 +75,10 @@ export const OneOnOneWrapper = styled.div`
             margin-top: 20px;
             max-width: 432px;
             margin: 0 auto;
+        }
+
+        .moreFeatures {
+            margin-top: 50px;
         }
     }
 

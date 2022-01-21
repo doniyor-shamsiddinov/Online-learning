@@ -8,6 +8,10 @@ export const SkillineWrapper = styled.div`
     margin-top: 140px;
     padding: 0 15px;
 
+    @media (max-width: 992px) {
+        margin-top: 80px;
+    }
+
     .skillineTitle {
         font-style: normal;
         font-weight: 600;
@@ -88,6 +92,10 @@ export const SkillineWrapper = styled.div`
             flex-direction: column;
         }
 
+        @media (max-width:992px) {
+            margin-top: 30px;
+        }
+
         @media (max-width: 768px) {
             flex-direction: column;
             align-items: center;
@@ -140,4 +148,6 @@ export const SkillineWrapper = styled.div`
             }
         }
     }
+
+    
 `

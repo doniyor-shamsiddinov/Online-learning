@@ -159,6 +159,7 @@ export const FeaturesWrapper = styled.div`
     @media (max-width: 576px) {
         .featuresTitle {
             font-size: 30px;
+            margin-top: 100px;
         }
 
         .featuresSubTitle {

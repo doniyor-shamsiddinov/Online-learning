@@ -276,7 +276,7 @@ export const FeedbackWrapper = styled.div`
     @media (max-width: 992px) {
         .innerDiv {
             flex-direction: column;
-            margin-top: 200px;
+            margin-top: 140px;
             align-items: center;
         }
 

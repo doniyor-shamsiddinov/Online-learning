@@ -68,10 +68,10 @@ export default function Header() {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <NavLinks className="navLinks">
-                                    <li className="navLink">Home</li>
-                                    <li className="navLink">Careers</li>
-                                    <li className="navLink">Blog</li>
-                                    <li className="navLink">About Us</li>
+                                    <li className="navLink" onClick={() => history.push('/')}>Home</li>
+                                    <li className="navLink" onClick={() => history.push('/careers')}>Careers</li>
+                                    <li className="navLink" onClick={() => history.push('/blog')}>Blog</li>
+                                    <li className="navLink" onClick={() => history.push('/about')}>About Us</li>
                                 </NavLinks>
                             </Nav>
                         </Offcanvas.Body>

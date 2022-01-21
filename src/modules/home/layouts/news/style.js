@@ -5,6 +5,10 @@ export const NewsWrapper = styled.div`
     margin-top: 150px;
     margin-bottom: 150px;
 
+    @media (max-width:992px) {
+        margin-top: 60px;
+    }
+
     .newsTitle {
         font-family: Nunito Sans;
         font-style: normal;
@@ -71,11 +75,16 @@ export const NewsWrapper = styled.div`
         color: ${colors.darkTextBlue};
         background: #F4C467;
         border-radius: 80px;
-        padding: 4px 26px;
+        padding: 2px 25px;
         margin-top: 30px;
         display: inline-block;
 
-        
+        @media (max-width: 576px) {
+            font-size: 16px;
+        }
+        @media (max-width: 375px) {
+            font-size: 14px;
+        }
     }
 
     .newsCardTitle {
@@ -86,6 +95,13 @@ export const NewsWrapper = styled.div`
         color: ${colors.darkTextBlue};
         margin-top: 20px;
         max-width: 550px;
+
+        @media (max-width: 576px) {
+            font-size: 20px;
+        }
+        @media (max-width: 375px) {
+            font-size: 18px;
+        }
     }
 
     .newsCardText {
@@ -97,6 +113,13 @@ export const NewsWrapper = styled.div`
         color: #696984;
         margin-top: 20px;
         max-width: 550px;
+
+        @media (max-width: 576px) {
+            font-size: 16px;
+        }
+        @media (max-width: 375px) {
+            font-size: 14px;
+        }
     }
 
     .newsCardLink {
@@ -108,6 +131,13 @@ export const NewsWrapper = styled.div`
         text-decoration-line: underline;
         color: #696984;
         margin-top: 28px;
+
+        @media (max-width: 576px) {
+            font-size: 18px;
+        }
+        @media (max-width: 375px) {
+            font-size: 16px;
+        }
     }
 
 
@@ -115,13 +145,16 @@ export const NewsWrapper = styled.div`
 
     .topNews {
         display: flex;
-        justify-content: space-between;
         margin-bottom: 40px;
+        align-items: center;
 
         @media (max-width: 1200px) {
             justify-content: center;
         }
 
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
         @media (max-width: 375px) {
             flex-direction: column;
         }
@@ -139,9 +172,11 @@ export const NewsWrapper = styled.div`
 
     .topNewsImg {
         max-width: 250px;
+        margin-right: 20px;
 
         @media (max-width: 576px) {
-            max-width: 200px;
+            max-width: 100%;
+            margin: 0 auto;
         }
 
         @media (max-width: 375px) {
@@ -152,27 +187,39 @@ export const NewsWrapper = styled.div`
     }
 
     .topNewsStatus {
-        font-style: normal;
-        font-weight: normal;
+        position: absolute;
+        bottom: 20px;
+        right: 60px;
+        font-size: 18px;
+        padding: 2px 5px;
+        display: inline-block;
+        padding: 5px 8px;
+        background-color: #F4C467;
+        text-transform: uppercase;
+        border-radius: 80px;
+        font-weight: 500;
         font-size: 16px;
         line-height: 27px;
         letter-spacing: 0.02em;
-        color: ${colors.darkTextBlue};
-        background: #F4C467;
-        border-radius: 80px;
-        padding: 4px 16px;
-        position: absolute;
-        top: 132px;
-        right: 15px;
-        /* bottom: 0; */
+        color: #252641;
 
-        @media (max-width:576px) {
+        @media (max-width:1200px) {
+            right: 30px;
+            line-height: 18px;
+            font-size: 12px;
+        }
+        @media (max-width:992px) {
+            right: 30px;
+            line-height: 18px;
+            font-size: 12px;
+        }
+        /* @media (max-width:576px) {
             top: 91px;
         }
 
         @media (max-width: 375px) {
             top: 146px;
-        }
+        } */
     }
 
     .topNewsTitle {
@@ -182,6 +229,14 @@ export const NewsWrapper = styled.div`
         line-height: 180%;
         max-width: 366px;
         color: ${colors.darkTextBlue};
+
+        @media (max-width:768px) {
+           font-size: 14px;
+        }
+        @media (max-width:576px) {
+            text-align: center;
+            margin-top: 10px;
+        }
     }
 
     .topNewsText {
@@ -194,8 +249,16 @@ export const NewsWrapper = styled.div`
         margin-top: 20px;
         max-width: 360px;
 
+        @media (max-width:768px) {
+            margin-top: 5px;
+            max-width: 360px;
+            font-size: 13px;
+
+
+        }
         @media (max-width:576px) {
-           display: none;
+            text-align: center;
+           /* display: none; */
         }
     }
 

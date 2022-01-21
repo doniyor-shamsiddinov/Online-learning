@@ -46,7 +46,7 @@ export const ClassManagmentWrapper = styled.div`
 
     @media (max-width: 992px) {
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 140px;
 
         .assestmentImg {
             margin-top: 60px;

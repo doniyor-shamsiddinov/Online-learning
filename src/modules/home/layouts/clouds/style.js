@@ -95,7 +95,11 @@ export const CloudsWrapper = styled.div`
     @media (max-width: 992px) {
         .innerDiv {
             flex-direction: column;
-            margin-top: 200px;
+            margin-top: 140px;
+        }
+
+        .iconsWrap {
+            margin-top: 50px;
         }
 
         .assestmentImg {
